@@ -1,0 +1,34 @@
+
+
+ <Help a fake bank to secure>
+ Carriers in Cyber Security :-
+                             * SOC Analyst (David): who monitor the attack happening
+                               in real time i.e see the malicious attack
+
+                             * Pentester  (Maya) : Tells how a attacker got in the
+                                system after attack happen i.e Tell the sequence
+                                 of attack
+                                  . Email sent
+                                  . Attack triggered
+                                  . Control Taken
+                                  . Data Stolen
+                             * Forensic Analyst (Priya): Investigate about the attack
+                                   see on which time which step of hacking held
+
+                             * Security Engineer (Sam) : Lock the door so this attack
+                               can not happen again i.e He will block unauthorized
+                               access and allow only office work processes
+
+   What I Learn :-
+                  * How a cyber security team work together
+                  * HOw an attack unfold step by step
+
+     <Blue Team>
+            * Soc Analyst
+            * Forensic Analyst
+            *  Security Engineer
+
+    <Read Team>
+            *Pentester
+
+
