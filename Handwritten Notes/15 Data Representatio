@@ -58,8 +58,39 @@ B = 11
 C = 12
 D = 13
 E = 14
+
+4. ASCII :-
+Definition:
+
+ASCII (American Standard Code for Information Interchange) assigns numbers to English characters.
+
+Examples
+A = 65
+B = 66
+a = 97
+
+The word:
+
+HELLO
+
+is stored internally as a sequence of ASCII values.
 F = 15
 Example
 FF
 0A
 1F
+
+5. Unicode :-
+Definition :
+
+Unicode extends ASCII and supports characters from almost every language.
+
+Examples:
+
+English
+Arabic
+Urdu
+Chinese
+Emojis 😀😁😂
+
+Unicode enables software to display multilingual text correctly.
