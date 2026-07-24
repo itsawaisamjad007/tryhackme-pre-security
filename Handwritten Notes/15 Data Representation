@@ -15,137 +15,146 @@ Learning Map :-
               * Bits and Bytes
 
 1. Binary (Base-2)  :-
-Definition
 
-Binary is the number system used by computers. It contains only two digits:
+ Definition :
 
-* 0
-* 1
+                   Binary is the number system used by computers. It contains only two digits:
 
-Every piece of information inside a computer is stored as binary.
+                    * 0
+                    * 1
 
-Example
-Binary: 1010
-1010₂ = 10₁₀
+                   Every piece of information inside a computer is stored as binary.
+
+                  Example :
+                           Binary: 1010
+                           1010₂ = 10₁₀
 
 
 
 2. Decimal (Base-10)   :-
-Definition
 
-Decimal is the number system humans use in everyday life.
+Definition :
 
-Digits:
+             Decimal is the number system humans use in everyday life.
 
-0 1 2 3 4 5 6 7 8 9
-Example
-25
-100
-356
+             Digits:
+
+             0 1 2 3 4 5 6 7 8 9
+             Example :
+                      25
+                      100
+                      356
 
 3. Hexadecimal (Base-16) :-
+
    Definition :
 
               Hexadecimal is a number system with 16 symbols.
 
-0 1 2 3 4 5 6 7 8 9
-A B C D E F
+                    0 1 2 3 4 5 6 7 8 9
+                     A B C D E F
 
-Where:
+                    Where:
 
-A = 10
-B = 11
-C = 12
-D = 13
-E = 14
+                    A = 10
+                    B = 11
+                    C = 12
+                    D = 13
+                    E = 14
 
 4. ASCII :-
+
 Definition:
 
-ASCII (American Standard Code for Information Interchange) assigns numbers to English characters.
+          ASCII (American Standard Code for Information Interchange) assigns numbers to English characters.
 
-Examples
-A = 65
-B = 66
-a = 97
+          Examples :
+          A = 65
+          B = 66
+          a = 97
 
-The word:
-
-HELLO
-
-is stored internally as a sequence of ASCII values.
-F = 15
-Example
-FF
-0A
-1F
+         The word: HELLO is stored internally as a sequence of ASCII values.
+         F = 15
+         Example :
+         FF
+         0A
+         1F
 
 5. Unicode :-
+
 Definition :
 
-Unicode extends ASCII and supports characters from almost every language.
-
-Examples:
-
-English
-Arabic
+             Unicode extends ASCII and supports characters from almost every language.
+             Unicode enables software to display multilingual text correctly.
+             Example :
+                     English
+                     Arabic
+                     Urdu
+                     Chinese
+                     Emojis 😀😁😂
 
 6. Base64 :-
+
 Definition :
 
-Base64 is an encoding method that converts binary data into readable text.
+            Base64 is an encoding method that converts binary data into readable text.
 
-Example
+            Example :
+                    Original : Hello
+                    Encoded : SGVsbG8=
 
-Original:
-
-Hello
-
-Encoded:
-
-SGVsbG8=
-Urdu
-Chinese
-Emojis 😀😁😂
-
-Unicode enables software to display multilingual text correctly.
 
 7. Bits and Bytes :-
 
 Bit :
-
-The smallest unit of data.
-
-0
-or
-1
+      The smallest unit of data.
+      0 or 1
 
 Byte :
-8 Bits = 1 Byte
+      8 Bits = 1 Byte
+      Example:
+             01000001
+            This represents one byte.
 
-Example:
+Storage Units  :- 
 
-01000001
+                 {8 Bits = 1 Byte
 
-This represents one byte.
+                  1024 Bytes = 1 KB
 
-Storage Units  :-
-8 Bits = 1 Byte
+                  1024 KB = 1 MB
 
-1024 Bytes = 1 KB
+                  1024 MB = 1 GB
 
-1024 KB = 1 MB
+                  1024 GB = 1 TB }
 
-1024 MB = 1 GB
+TryHackMe Tips  :-
 
-1024 GB = 1 TB
+                  {During this room, you may be asked to:
 
-TryHackMe Tips
+                  Convert Binary ↔ Decimal
+                  Convert Decimal ↔ Hexadecimal
+                  Identify ASCII characters
+                  Encode or decode Base64 strings
+                  Understand how computers represent different types of data}
 
-During this room, you may be asked to:
+Connclusions :-
 
-Convert Binary ↔ Decimal
-Convert Decimal ↔ Hexadecimal
-Identify ASCII characters
-Encode or decode Base64 strings
-Understand how computers represent different types of data
+                In this room, we covered several topics related to how numeric values are represented
+                 and stored in computer memory. We covered the following systems:
+                 ary (Base-2) system: Computers understand two states, which are encoded as 0 and 1.
+               Hexadecimal (Base-16) system: Every 4 binary digits (bits) can be grouped as one hexadecimal
+                digit. A hexadecimal digit ranges between 0 and F.Octal (Base-8) system: Every 3 binary digits
+                 (bits) can be grouped as one octal digit. An octal digit ranges between 0 and 7. This one is
+               less commonly encountered on computer systems.
+
+ Bit: 
+         It is short for binary digit, and it can be either 0 or 1.
+
+ Byte: 
+       On modern systems, a byte is 8 bits. It is also referred to as an octet.
+
+Hex color:
+           A color is represented as a combination of red, green, and blue on computer
+            systems. If one byte is assigned for each of the primary colors (red, green,
+             and blue), we can get more than 16 million color combinations. 
